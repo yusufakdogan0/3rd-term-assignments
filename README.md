@@ -1,8 +1,12 @@
 # 3rd-term-assignment-1
-The assignment looks a littke confusing but what we are asked is basically applying some functions on an AVL tree.
-For those who don't know AVL tree is a binary search tree that ensures a balance via reorganization process. 
-The balance can be summarized as follows: For evey node its left and right nodes have a difference at most 1 in their heights (distance to the furthest leaf).
+The assignment looks a littke confusing but  basically what we are asked is applying some functions on an AVL tree.
+
 There are 5 functions we are asked o implement:
 1) Adding a new node
 2) removing an existing node
-3) 
+3) Finding the common parent of 2 nodes with lowest height.
+4) Finding the maximum number of indepedent members (independent members are the members that does not have direct parent-child relationship with each other)
+5) Finding all the nodes that have same height with a given node
+
+For additional informaton and assignment outline
+[cmpe250_project1.pdf](https://github.com/yusufakdogan0/3rd-term-assignments/files/13931673/cmpe250_project1.pdf)
