@@ -29,7 +29,7 @@ public class Main {
                 String operation = lineArray[0];
                 // pass the empty lines
                 if (operation.equals("")){continue;}
-                // divition operation
+                // divide operation
                 if (operation.equals("INTEL_DIVIDE")){
                     //I have defined a static variable for member class which will initially be 0 for each division operation
                     //divide operation will update it and update method will be explained there
@@ -39,7 +39,7 @@ public class Main {
                     Member.divisonNumber=0;
                     continue;
                 }
-                // if it is not a divition operation we will need a name and gms to continue
+                // if it is not a divide operation we will need a name and gms to continue
                 String name = lineArray[1];
                 double gms = Double.parseDouble(lineArray[2]);
                 if (operation.equals("MEMBER_IN")){
